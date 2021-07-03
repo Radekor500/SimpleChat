@@ -1,0 +1,47 @@
+.sidebar{
+    background-color: cyan;
+    position: relative;
+    display: block;
+    height: 500px;
+    width: 25%;
+    margin-top: 0;
+    border: 5px solid green;
+}
+
+.user-list{
+    /* margin-top: 0; */
+    list-style: none;
+    /* float: left; */
+    /* margin-left: 0%; */
+}
+
+.room{
+    margin-left: 5%;
+    /* float: left; */
+    /* margin-bottom: 0; */
+    text-align: left;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+li{
+    margin-top: 0;
+    padding: 10px;
+    /* margin: auto; */
+    display: block;
+    float: left;
+    clear: left;
+}
+
+.list{
+    margin-top: 0;
+}
+
+.clr{
+    clear:both;
+    font-size:0;
+}

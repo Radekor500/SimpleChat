@@ -1,0 +1,26 @@
+.grid-wrap{
+    display: grid;
+    grid-template-columns: 255 255 255 255;
+    grid-template-rows: 255 255 255 255;
+    grid-template-areas: 
+        'form form form form';
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+.room{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background-color: rgb(122, 99, 99);
+    height: 100px;
+    
+    
+}
+
+.room-form{
+    display: inline;
+    grid-area: form;
+    border: 5px solid green;
+}
